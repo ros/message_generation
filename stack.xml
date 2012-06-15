@@ -1,6 +1,6 @@
 <stack>
   <name>langs-dev</name>
-  <version>0.1.1</version>
+  <version>0.1.2</version>
   <description>Meta package modeling the build-time dependencies for language bindings of messages.</description>
   <author>The ROS Ecosystem</author>
   <maintainer email="dthomas@willowgarage.com">Dirk Thomas</maintainer>
