@@ -14,4 +14,7 @@
   <build_depends>genpy</build_depends>
 
   <depends>catkin</depends>
+  <depends>gencpp</depends>
+  <depends>genlisp</depends>
+  <depends>genpy</depends>
 </stack>
