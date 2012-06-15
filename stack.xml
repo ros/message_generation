@@ -14,4 +14,7 @@
   <build_depends>genpy</build_depends>
 
   <depends>catkin</depends>
+  <depends>gencpp</depends> <!-- provide the generators to wet downstream packages -->
+  <depends>genlisp</depends> <!-- provide the generators to wet downstream packages -->
+  <depends>genpy</depends> <!-- provide the generators to wet downstream packages -->
 </stack>
