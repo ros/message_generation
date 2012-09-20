@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <name>langs-dev</name>
+  <version>0.2.1</version>
+  <description>Meta package modeling the build-time dependencies for language bindings of messages.</description>
+  <maintainer email="dthomas@willowgarage.com">Dirk Thomas</maintainer>
+  <license>BSD</license>
+
+  <url type="bugtracker">https://github.com/ros/langs-dev/issues</url>
+  <url type="repository">https://github.com/ros/langs-dev</url>
+
+  <build_depend>catkin</build_depend>
+  <build_depend>gencpp</build_depend>
+  <build_depend>genlisp</build_depend>
+  <build_depend>genpy</build_depend>
+
+  <run_depend>catkin</run_depend>
+  <run_depend>gencpp</run_depend> <!-- provide the generators to wet downstream packages -->
+  <run_depend>genlisp</run_depend> <!-- provide the generators to wet downstream packages -->
+  <run_depend>genpy</run_depend> <!-- provide the generators to wet downstream packages -->
+</package>
