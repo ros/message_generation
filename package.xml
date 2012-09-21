@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>langs-dev</name>
-  <version>0.2.1</version>
+  <version>0.2.2</version>
   <description>Meta package modeling the build-time dependencies for language bindings of messages.</description>
   <maintainer email="dthomas@willowgarage.com">Dirk Thomas</maintainer>
   <license>BSD</license>
