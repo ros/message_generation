@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(langs-dev)
+
 find_package(catkin REQUIRED)
-catkin_package_xml()
-find_package(catkin REQUIRED COMPONENTS ${${PROJECT_NAME}_DEPENDS})
-catkin_package(DEPENDS ${${PROJECT_NAME}_DEPENDS})
+
+catkin_package(CATKIN_DEPENDS gencpp genlisp genpy)
