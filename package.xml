@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <package>
-  <name>langs-dev</name>
+  <name>message_generation</name>
   <version>0.2.7</version>
-  <description>Meta package modeling the build-time dependencies for language bindings of messages.</description>
+  <description>Package modeling the build-time dependencies for generating language bindings of messages.</description>
   <maintainer email="dthomas@willowgarage.com">Dirk Thomas</maintainer>
   <license>BSD</license>
 
-  <url type="bugtracker">https://github.com/ros/langs-dev/issues</url>
-  <url type="repository">https://github.com/ros/langs-dev</url>
+  <url type="bugtracker">https://github.com/ros/message_generation/issues</url>
+  <url type="repository">https://github.com/ros/message_generation</url>
 
   <build_depend>catkin</build_depend>
   <build_depend>gencpp</build_depend>
