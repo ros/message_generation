@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>message_generation</name>
-  <version>0.2.7</version>
+  <version>0.2.8</version>
   <description>Package modeling the build-time dependencies for generating language bindings of messages.</description>
   <maintainer email="dthomas@willowgarage.com">Dirk Thomas</maintainer>
   <license>BSD</license>
