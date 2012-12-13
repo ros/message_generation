@@ -6,16 +6,14 @@
   <maintainer email="dthomas@willowgarage.com">Dirk Thomas</maintainer>
   <license>BSD</license>
 
+  <url>http://ros.org/wiki/message_generation</url>
   <url type="bugtracker">https://github.com/ros/message_generation/issues</url>
   <url type="repository">https://github.com/ros/message_generation</url>
 
   <build_depend>catkin</build_depend>
-  <build_depend>gencpp</build_depend>
-  <build_depend>genlisp</build_depend>
-  <build_depend>genpy</build_depend>
 
-  <run_depend>catkin</run_depend>
-  <run_depend>gencpp</run_depend> <!-- provide the generators to wet downstream packages -->
-  <run_depend>genlisp</run_depend> <!-- provide the generators to wet downstream packages -->
-  <run_depend>genpy</run_depend> <!-- provide the generators to wet downstream packages -->
+  <run_depend>gencpp</run_depend>
+  <run_depend>genlisp</run_depend>
+  <run_depend>genmsg</run_depend>
+  <run_depend>genpy</run_depend>
 </package>
