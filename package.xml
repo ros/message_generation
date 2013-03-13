@@ -3,7 +3,7 @@
   <name>message_generation</name>
   <version>0.2.9</version>
   <description>Package modeling the build-time dependencies for generating language bindings of messages.</description>
-  <maintainer email="dthomas@willowgarage.com">Dirk Thomas</maintainer>
+  <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
   <license>BSD</license>
 
   <url>http://ros.org/wiki/message_generation</url>
