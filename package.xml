@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<package>
+<package format="2">
   <name>message_generation</name>
   <version>0.4.1</version>
   <description>Package modeling the build-time dependencies for generating language bindings of messages.</description>
@@ -12,10 +12,10 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <run_depend>gencpp</run_depend>
-  <run_depend>geneus</run_depend>
-  <run_depend>gennodejs</run_depend>
-  <run_depend>genlisp</run_depend>
-  <run_depend>genmsg</run_depend>
-  <run_depend>genpy</run_depend>
+  <build_export_depend>gencpp</build_export_depend>
+  <build_export_depend>geneus</build_export_depend>
+  <build_export_depend>gennodejs</build_export_depend>
+  <build_export_depend>genlisp</build_export_depend>
+  <build_export_depend>genmsg</build_export_depend>
+  <build_export_depend>genpy</build_export_depend>
 </package>
